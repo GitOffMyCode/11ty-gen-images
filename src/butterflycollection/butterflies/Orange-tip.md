@@ -2,7 +2,7 @@
 layout: layouts/butterfly.html
 title: Orange tip
 location: Rixton Claypits
-image: OrangeTip.jpeg
+image: Orange-tip-1024.jpeg
 imageAltText: Orange tip butterfly
 ---
 

@@ -10,7 +10,7 @@ eleventyNavigation:
 
 {% for bfly in collections.butterflies %}
   <article class="butterfly-card">
-    <img src="/assets/images/{{bfly.data.image}}" class="butterfly-card__img" alt="Adonis blue butterfly"/>
+    <img src="/assets/images/{{bfly.data.image}}" alt="{{ bfly.data.imageAltText }}"/>
 
     <h2>{{ bfly.data.title }}</h2>
 

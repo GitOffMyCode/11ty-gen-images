@@ -1,7 +1,7 @@
 ---
 layout: layouts/butterfly.html
 title: Adonis blue
-image: AdonisBlue.jpeg
+image: Adonis-blue-1024.jpeg
 imageAltText: Adonis blue butterfly
 ---
 
