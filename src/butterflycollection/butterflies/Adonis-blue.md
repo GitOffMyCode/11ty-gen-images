@@ -2,7 +2,8 @@
 layout: layouts/butterfly.html
 title: Adonis blue
 image: Adonis-blue-1024.jpeg
-imageAltText: Adonis blue butterfly
+imageAltText: Adonis Blue butterfly rests on some brambles.
+caption: The Adonis Blue butterfly.
 ---
 
 The Adonis Blue is a species of chalk downland, where it may be found in warm, sheltered spots. The male Adonis Blue has brilliantly-coloured blue wings that gives this butterfly its name, and can be found flying low over vegetation, seeking out the less-conspicuous females that are a rich chocolate brown in colour.

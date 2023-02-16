@@ -3,7 +3,8 @@ layout: layouts/butterfly.html
 title: Orange tip
 location: Rixton Claypits
 image: Orange-tip-1024.jpeg
-imageAltText: Orange tip butterfly
+imageAltText: An Orange Tip butterfly rests on some pink wild flowers.
+caption: The Orange Tip butterfly.
 ---
 
 The Orange-tip is a true sign of spring, being one of the first species to emerge that has not overwintered as an adult.

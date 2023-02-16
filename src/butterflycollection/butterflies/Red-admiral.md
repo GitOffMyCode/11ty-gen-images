@@ -2,7 +2,8 @@
 layout: layouts/butterfly.html
 title: Red Admiral
 image: Red-admiral-1024.jpeg
-imageAltText: Red Admiral blue butterfly
+imageAltText: A Red Admiral butterfly in flight.
+caption: The Red Admiral butterfly.
 ---
 
 The Red Admiral is a frequent visitor to gardens throughout the British Isles and one of our most well-known butterflies. This butterfly is unmistakable, with the velvety black wings intersected by striking red bands.

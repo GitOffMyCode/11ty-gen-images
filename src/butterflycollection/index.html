@@ -10,11 +10,15 @@ eleventyNavigation:
 
 {% for bfly in collections.butterflies %}
   <article class="butterfly-card">
-    <img src="/assets/images/{{bfly.data.image}}" alt="{{ bfly.data.imageAltText }}"/>
+    <a href="{{ bfly.url }}">
+      <figure>
+        <img src="/assets/images/{{bfly.data.image}}" alt="{{ bfly.data.imageAltText }}"/>
+      </figure>
+    </a>
 
     <h2>{{ bfly.data.title }}</h2>
 
-    <a href="{{ bfly.url }}" class="butterfly-card__text">
+    <a href="{{ bfly.url }}">
         More about the {{ bfly.data.title }} butterfly
       </a>
 
