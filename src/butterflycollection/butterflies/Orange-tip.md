@@ -1,17 +1,9 @@
 ---
 layout: layouts/butterfly.html
 title: Orange tip
-intro: Common and widespread, this medium-sized butterfly can be found in gardens and hedgerows. The males are unmistakable; white butterflies with bright orange wingtips. The females are white with black wingtips. Both have mottled green underwings.
-latinname: Anthocharis cardamines
-sighting: 2022-05-12
 location: Rixton Claypits
 image: OrangeTip.jpeg
 imageAltText: Orange tip butterfly
-tags:
-  - British
-  - Orange
-  - White
-  - Rixton Claypits
 ---
 
 The Orange-tip is a true sign of spring, being one of the first species to emerge that has not overwintered as an adult.

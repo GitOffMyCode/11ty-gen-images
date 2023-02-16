@@ -1,18 +1,8 @@
 ---
 layout: layouts/butterfly.html
 title: Red Admiral
-intro: A large and strong-flying butterfly and common in gardens. This familiar and distinctive insect may be found anywhere in Britain and Ireland and in all habitat types.
-latinname: Vanessa atalanta
-sighting: 2022-08-15
-location: Norfolk
 image: RedAdmiral.jpeg
 imageAltText: Red Admiral blue butterfly
-tags:
-  - British
-  - Red
-  - Black
-  - White
-  - Norfolk
 ---
 
 The Red Admiral is a frequent visitor to gardens throughout the British Isles and one of our most well-known butterflies. This butterfly is unmistakable, with the velvety black wings intersected by striking red bands.

@@ -43,6 +43,12 @@ header > * {
   grid-column: 2;
 }
 
+hr {
+  border: 0;
+  border-top: 3px dashed var(--border);
+  margin: 2rem 0;
+}
+
 /* - - - - - - - - nav and links - - - - - - - - */
 
 header li {
@@ -121,17 +127,26 @@ h2 {
     padding: 1rem 0;
   }
 
-  header li {
-    margin-right: 0.4em;
-  }
-
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin: 1.5rem 0 1rem 0;
   }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin: 1rem 0 0.8rem 0;
   }
+}
+
+/* - - - - - - - - cards and images - - - - - - - - */
+
+.butterfly-card {
+  align-items: left;
+  margin: 1.25rem 0;
+  padding: 1rem;
+  border: 2px dashed var(--border);
+}
+
+.butterfly-card__img {
+  margin-right: 2rem;
 }
