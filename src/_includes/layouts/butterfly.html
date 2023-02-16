@@ -1,0 +1,28 @@
+{% extends "layouts/butterflycollection.html" %}
+
+{% block content %}
+    <article class="post__content">
+        <h1>{{title}}</h1>
+        <ul class="butterfly">
+            {% for tag in tags %}
+                <li>
+                    <a class="tag-link" href="/butterflycollection/tag/{{ tag | slugify }}">{{ tag }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <hr/>
+
+        <img src="/assets/images/{{ image }}" class="post-img" alt="{{ imageAltText}}">
+
+        {{ content | safe }}
+
+        <hr/>
+
+        <p>
+            <strong>Last sighted:</strong>
+            {{ sighting | asPostDate }}, {{ location }}.
+        </p>
+
+    </article>
+{% endblock %}

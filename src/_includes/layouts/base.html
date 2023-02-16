@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include "layouts/basehead.html" %}
+    {% block head %}
+      {# pages using this template can add code to the head #}
+    {% endblock %}
+  </head>
+
+  <body>
+    {% include "layouts/header.html" %}
+    <main>
+      {% block content %}
+        {{ content | safe }}
+      {% endblock %}
+    </main>
+  </body>
+</html>

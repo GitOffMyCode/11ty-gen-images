@@ -1,0 +1,137 @@
+@import url("./reset.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+
+:root {
+  --sans-font: "Poppins", -apple-system, BlinkMacSystemFont, "Avenir Next",
+    Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
+    "Helvetica Neue", sans-serif;
+  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --light: 300;
+  --bold: 700;
+
+  --bg: #f6f3f1;
+  --text: #000;
+  --border: #afa7c8;
+  --link: #5118e0;
+  --tag: #d5cbf4;
+}
+
+/* - - - - - - - - layout - - - - - - - - */
+
+html {
+  background-color: var(--bg);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr min(45rem, 90%) 1fr;
+}
+main > * {
+  grid-column: 2;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr min(45rem, 90%) 1fr;
+  grid-column: 1 / -1;
+  padding: 2rem 0;
+  color: var(--text);
+  margin: 0;
+}
+header > * {
+  grid-column: 2;
+}
+
+/* - - - - - - - - nav and links - - - - - - - - */
+
+header li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+header ul {
+  padding-left: 0;
+}
+
+a,
+a:visited a:active {
+  text-decoration: none;
+  color: var(--link);
+  box-shadow: inset 0 -2px 0 var(--link);
+  padding-bottom: 0.2rem;
+}
+
+a:hover {
+  box-shadow: inset 0 -3px 0 var(--link);
+  padding-bottom: 0.2rem;
+}
+
+.nav-active {
+  font-weight: bold;
+  box-shadow: inset 0 0 0 var(--link);
+  padding-bottom: 0.2rem;
+}
+
+/* - - - - - - - - typography - - - - - - - - */
+
+body {
+  color: var(--text);
+
+  font-family: var(--mono-font);
+  font-size: 1.25rem;
+  line-height: 1.75;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+li {
+  margin-bottom: 0;
+}
+
+main ul {
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--sans-font);
+  font-weight: var(--light);
+  overflow-wrap: break-word;
+  line-height: 1.1;
+}
+h1 {
+  font-size: 3rem;
+  margin: 3rem 0 2rem 0;
+}
+h2 {
+  font-size: 2rem;
+  margin: 2rem 0 1.6rem 0;
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  header {
+    padding: 1rem 0;
+  }
+
+  header li {
+    margin-right: 0.4em;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0 1rem 0;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin: 1rem 0 0.8rem 0;
+  }
+}

@@ -1,0 +1,38 @@
+--- 
+layout: layouts/butterflycollection.html
+title: Butterflies
+eleventyNavigation:
+  key: Butterflies
+  order: 3
+---
+
+<h1>{{ title }}</h1>
+
+{% for bfly in collections.butterflies %}
+  <article class="butterfly-card">
+    <img src="/assets/images/{{bfly.data.image}}" class="butterfly-card__img" alt="Adonis blue butterfly"/>
+    <div class="butterfly-card__content">
+
+      <h2 class="butterfly-card__heading">{{ bfly.data.title }}</h2>
+
+      <p class="butterfly-card__latin">{{ bfly.data.latinname }}</p>
+
+      <ul class="butterfly">
+        {% for tag in bfly.data.tags %}
+          <li>
+            <a class="tag-link" href="/butterflycollection/tag/{{ tag | slugify }}">{{ tag }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p>
+        <small>{{ bfly.data.intro }}</small>
+      </p>
+
+      <a href="{{ bfly.url }}" class="butterfly-card__text">
+        More about the {{ bfly.data.title }} butterfly
+      </a>
+
+    </div>
+  </article>
+{% endfor %}
