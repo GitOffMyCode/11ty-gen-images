@@ -2,7 +2,7 @@
 layout: layouts/butterfly.html
 title: Orange tip
 location: Rixton Claypits
-image: /images/Orange-tip-1024.jpeg
+image: /images/Orange-tip-2048.jpeg
 imageAltText: An Orange Tip butterfly rests on some pink wild flowers.
 caption: The Orange Tip butterfly.
 ---

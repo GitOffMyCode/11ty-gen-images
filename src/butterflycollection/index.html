@@ -12,7 +12,12 @@ eleventyNavigation:
 <article class="butterfly-card">
 
   <a href="{{ bfly.url }}">
-    {% EleventyImage bfly.data.image, bfly.data.imageAltText, "(min-width: 30em) 50vw, 100vw" %}
+    {% EleventyImage bfly.data.image, bfly.data.imageAltText, "
+    (max-width: 400px) 400px, 
+    (max-width: 700px) 700px, 
+    (max-width: 1024px) 1024px,
+    (max-width: 2048px) 2048px,
+    " %}
   </a>
 
   <h2>{{ bfly.data.title }}</h2>

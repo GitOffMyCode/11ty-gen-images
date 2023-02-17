@@ -1,7 +1,7 @@
 ---
 layout: layouts/butterfly.html
 title: Red Admiral
-image: /images/Red-admiral-1024.jpeg
+image: /images/Red-admiral-2048.jpeg
 imageAltText: A Red Admiral butterfly in flight.
 caption: The Red Admiral butterfly.
 ---
