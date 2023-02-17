@@ -10,21 +10,16 @@ eleventyNavigation:
 
 {% asyncEach bfly in collections.butterflies %}
 <article class="butterfly-card">
+
   <a href="{{ bfly.url }}">
-
     {% EleventyImage bfly.data.image, bfly.data.imageAltText, "(min-width: 30em) 50vw, 100vw" %}
-
-    {# <picture>
-      <img src="{{ bfly.data.image }}" alt="{{ bfly.data.imageAltText}}">
-    </picture> #}
-
   </a>
 
   <h2>{{ bfly.data.title }}</h2>
 
   <a href="{{ bfly.url }}">
-        More about the {{ bfly.data.title }} butterfly
-      </a>
+    More about the {{ bfly.data.title }} butterfly
+  </a>
 
 </article>
 {% endeach %}
