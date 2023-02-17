@@ -4,10 +4,12 @@
     <article class="post__content">
         <h1>{{title}}</h1>
 
-        <hr/>
-
         <figure>
-            <img src="/assets/images/{{ image }}" alt="{{ imageAltText}}">
+
+            {% EleventyImage image, imageAltText, "(min-width: 30em) 50vw, 100vw" %}
+
+            {# <img src="{{ image }}" alt="{{ imageAltText}}"> #}
+
             <figcaption>
                 <small>
                     {{ caption }}

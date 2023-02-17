@@ -1,7 +1,7 @@
 {
   "name": "11ty-gen-images",
   "version": "1.0.0",
-  "description": "Based on this eleventy crash course: https://www.youtube.com/playlist?list=PLtLXFsdHI8JTwScHvB924dY3PNwNJjjuW",
+  "description": "Mucking about with images in Eleventy",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -13,5 +13,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-navigation": "^0.3.5"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^3.0.0"
   }
 }
