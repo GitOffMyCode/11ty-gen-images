@@ -4,12 +4,14 @@ title: Orange tip
 location: Rixton Claypits
 image: /images/Orange-tip-2048.jpeg
 imageAltText: An Orange Tip butterfly rests on some pink wild flowers.
-caption: The Orange Tip butterfly.
 ---
 
 The Orange-tip is a true sign of spring, being one of the first species to emerge that has not overwintered as an adult.
 
 The male and female of this species are very different in appearance. The more-conspicuous male has orange tips to the forewings, that give this butterfly its name. These orange tips are absent in the female and the female is often mistaken for one of the other whites, especially the Green-veined White or Small White.
+
+![A blue butterfly](/images/Adonis-blue-2048.jpeg)
+(This is not an orange tip, it is an Adonis Blue.)
 
 This butterfly is found throughout England, Wales and Ireland, but is somewhat-local further north and especially in Scotland.
 

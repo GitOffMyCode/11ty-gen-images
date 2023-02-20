@@ -5,13 +5,9 @@
         <h1>{{title}}</h1>
 
         <figure>
-
-            {% EleventyImage image, imageAltText, "
-            (max-width: 400px) 400px, 
-            (max-width: 700px) 700px, 
-            (max-width: 1024px) 1024px,
-            (max-width: 2048px) 2048px,
-            " %}
+            {% EleventyImage image,
+            imageAltText,
+            "auto" %}
 
             <figcaption>
                 <small>
@@ -23,7 +19,6 @@
         <br>
 
         {{ content | safe }}
-
         <hr/>
 
     </article>

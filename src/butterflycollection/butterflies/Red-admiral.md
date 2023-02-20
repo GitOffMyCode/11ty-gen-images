@@ -6,6 +6,8 @@ imageAltText: A Red Admiral butterfly in flight.
 caption: The Red Admiral butterfly.
 ---
 
+![An Orange Tip butterfly rests on some pink wild flowers](/images/Orange-tip-2048.jpeg)
+
 The Red Admiral is a frequent visitor to gardens throughout the British Isles and one of our most well-known butterflies. This butterfly is unmistakable, with the velvety black wings intersected by striking red bands.
 
 This butterfly is primarily a migrant to our shores, although sightings of individuals and immature stages in the first few months of the year, especially in the south of England, mean that this butterfly is now considered resident.
