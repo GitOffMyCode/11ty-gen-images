@@ -12,9 +12,8 @@
 
   --bg: #f6f3f1;
   --text: #000;
-  --border: #afa7c8;
+  --border: #cac5dc;
   --link: #5118e0;
-  --tag: #d5cbf4;
 }
 
 /* - - - - - - - - layout - - - - - - - - */
@@ -84,7 +83,6 @@ a:hover {
 
 body {
   color: var(--text);
-
   font-family: var(--mono-font);
   font-size: 1.25rem;
   line-height: 1.75;
