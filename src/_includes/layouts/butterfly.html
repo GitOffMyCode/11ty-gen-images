@@ -4,18 +4,6 @@
     <article class="post__content">
         <h1>{{title}}</h1>
 
-        <figure>
-            {% EleventyImage image,
-            imageAltText,
-            "auto" %}
-
-            <figcaption>
-                <small>
-                    {{ caption }}
-                </small>
-            </figcaption>
-        </figure>
-
         <br>
 
         {{ content | safe }}

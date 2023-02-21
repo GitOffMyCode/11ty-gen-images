@@ -2,9 +2,19 @@
 layout: layouts/butterfly.html
 title: Red Admiral
 image: /images/Red-admiral-2048.jpeg
-imageAltText: A Red Admiral butterfly in flight.
-caption: The Red Admiral butterfly.
+imageAltText: Red Admiral butterfly
 ---
+
+<figure>
+{% EleventyImage "/images/Red-admiral-2048.jpeg", "A Red Admiral butterfly in flight", "auto" %}
+<figcaption>
+The Red Admiral butterfly
+</figcaption>
+</figure>
+
+<hr />
+
+The Orange Tip butterfly
 
 The Red Admiral is a frequent visitor to gardens throughout the British Isles and one of our most well-known butterflies. This butterfly is unmistakable, with the velvety black wings intersected by striking red bands.
 
